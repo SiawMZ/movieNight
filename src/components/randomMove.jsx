@@ -24,9 +24,9 @@ export default function RandomMove() {
       "https://media.tenor.com/-i5DxaW3J70AAAAi/tkthao219-bubududu.gif"
     );
 
-    const centerX = window.innerWidth + 20; // Adjust width as needed
-    const centerY = (window.innerHeight - 100) / 2; // Adjust height as needed
-    setPosition({ x: centerX, y: centerY });
+    //const centerX = window.innerWidth / 2; // Adjust width as needed
+    //const centerY = (window.innerHeight - 100) / 2; // Adjust height as needed
+    //setPosition({ x: centerX, y: 0 });
     setShowNoButton(false);
   };
 
