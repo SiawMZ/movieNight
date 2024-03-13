@@ -43,7 +43,7 @@ export default function RandomMove() {
         <br />
         <div className="justify-center ml-6">
           <button
-            className="btn mr-10 bg-pink-800 hover:bg-pink-600 outline outline-pink-500 px-10 text-white hover:scale-110 focus:translate-x-16"
+            className="yes mr-10 text-white hover:scale-110 focus:translate-x-16"
             onClick={handleYesBtn}
           >
             Yes
@@ -51,7 +51,7 @@ export default function RandomMove() {
 
           {showNoButton && (
             <button
-              className="btn bg-black outline text-white px-10 "
+              className="no text-white px-10 "
               onMouseMove={getRandomPosition}
               style={{
                 position: "absolute",
